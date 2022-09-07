@@ -18,48 +18,48 @@
   <div id="container">
     <ion-card>
       <ion-card-header>
-        <ion-card-title>JURASSIC WORLD EVOLUTION</ion-card-title>
+        <ion-card-title *ngFor="let label of juegos1">{{label.nombre}}</ion-card-title>
         <img src="https://cl.buscafs.com/www.levelup.com/public/uploads/images/517842_256x319.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 50.000
+      <ion-card-content *ngFor="let label of juegos1">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
     
     <ion-card>
       <ion-card-header>
-        <ion-card-title>GOD OF WAR RAGNAROK</ion-card-title>
+        <ion-card-title *ngFor="let label of juegos2">{{label.nombre}}</ion-card-title>
         <img src="https://images-na.ssl-images-amazon.com/images/I/81zQed-L3eL._AC._SR360,460.jpg" alt="" style="width:20em;" alt="" style="width:11.5em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 60.000
+      <ion-card-content *ngFor="let label of juegos2">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title>HORIZON</ion-card-title>
+        <ion-card-title *ngFor="let label of juegos3">{{label.nombre}}</ion-card-title>
         <img src="https://images-na.ssl-images-amazon.com/images/I/81tdRcle46L._AC._SR360,460.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 62.000
+      <ion-card-content *ngFor="let label of juegos3">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title>BATTLEFIELD</ion-card-title>
+        <ion-card-title *ngFor="let label of juegos4">{{label.nombre}}</ion-card-title>
         <img src="https://cdn.shopify.com/s/files/1/0559/9513/8226/products/Battlefield2042_PS4_600x600.jpg?v=1644009373" alt="" style="width:25em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 45.000
+      <ion-card-content *ngFor="let label of juegos4">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>

@@ -19,48 +19,48 @@
   <div id="container">
     <ion-card>
       <ion-card-header>
-        <ion-card-title>ASSASSIN'S CREED IV: BLACK</ion-card-title>
+        <ion-card-title *ngFor="let label of figuras1">{{label.nombre}} </ion-card-title>
         <img src="https://figurasde.top/wp-content/uploads/2020/03/figuras-de-accion-videojuegos-figura-assassins-creed-figurasde-top.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 25.000
+      <ion-card-content *ngFor="let label of figuras1">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
     
     <ion-card>
       <ion-card-header>
-        <ion-card-title>GOD OF WAR RAGNAROK</ion-card-title>
+        <ion-card-title *ngFor="let label of figuras2">{{label.nombre}}</ion-card-title>
         <img src="https://www.milcomics.com/1282836-home_default/god-of-war-estatua-1-10-bds-art-scale-kratos-atreus-34-cm.jpg" alt="" style="width:11.5em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 30.000
+      <ion-card-content *ngFor="let label of figuras2">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title>DEVIL MAY CRY DANTE</ion-card-title>
+        <ion-card-title *ngFor="let label of figuras3">{{label.nombre}}</ion-card-title>
         <img src="https://sc04.alicdn.com/kf/H5d77f6071b6c43db848aa0b832c744bfh.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 15.000
+      <ion-card-content *ngFor="let label of figuras3">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
 
     <ion-card>
       <ion-card-header>
-        <ion-card-title>BATMAN</ion-card-title>
+        <ion-card-title *ngFor="let label of figuras4">{{label.nombre}}</ion-card-title>
         <img src="https://www.mrjuegosdemesa.es/pics/2021/02/11/mcfarlane-toys-15346-0-arkham-asylum-batman-dc-gaming-figura-de-accion-de-18-cm-33378.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
-      <ion-card-content>
-        Precio: $ 40.000
+      <ion-card-content *ngFor="let label of figuras4">
+        <li> Precio:{{label.precio}}</li>
       </ion-card-content>
       <ion-button>COMPRAR</ion-button>
     </ion-card>
