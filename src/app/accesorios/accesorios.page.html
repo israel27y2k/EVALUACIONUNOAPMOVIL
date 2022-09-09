@@ -16,21 +16,10 @@
   </ion-header>
 
   <div id="container">
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title *ngFor="let label of accesorio1">{{label.nombre}} </ion-card-title>
-        <img src="https://i.pinimg.com/474x/89/85/3e/89853e8b23f491af2d96bec25888519b.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
-      </ion-card-header>
     
-      <ion-card-content *ngFor="let label of accesorio1">
-        <li> Precio:{{label.precio}}</li>
-      </ion-card-content>
-      <ion-button>COMPRAR</ion-button>
-    </ion-card>
-    
-    <ion-card>
+    <ion-card *ngFor="let label of accesorio">
       <ion-card-header>
-        <ion-card-title *ngFor="let label of accesorio2">{{label.nombre}} </ion-card-title>
+        <ion-card-title>{{label.nombre}} </ion-card-title>
         <img src="https://http2.mlstatic.com/D_NQ_NP_813489-MLA46334284916_062021-O.jpg" alt="" style="width:11.5em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
       </ion-card-header>
     
@@ -40,30 +29,6 @@
       <ion-button>COMPRAR</ion-button>
     </ion-card>
 
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title *ngFor="let label of accesorio3">{{label.nombre}}</ion-card-title>
-        <img src="http://www.tecnocarp.cl/wp-content/uploads/2021/08/61DHTb9mOZL._AC_SL1500_.jpg" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
-      </ion-card-header>
-    
-      <ion-card-content *ngFor="let label of accesorio3">
-        <li> Precio:{{label.precio}}</li>
-      </ion-card-content>
-      <ion-button>COMPRAR</ion-button>
-    </ion-card>
-
-    <ion-card>
-      <ion-card-header>
-        <ion-card-title *ngFor="let label of accesorio4">{{label.nombre}}</ion-card-title>
-        <img src="https://cdnx.jumpseller.com/novi-technology/image/16454857/resize/756/945?1620678379" alt="" style="width:20em;" alt="" style="width:20em;" alt="" style="width:20em;" alt="">
-      </ion-card-header>
-    
-      <ion-card-content *ngFor="let label of accesorio4">
-        <li> Precio:{{label.precio}}</li>
-      </ion-card-content>
-      <ion-button>COMPRAR</ion-button>
-    </ion-card>
-    
     
     <li>Direccion: Alameda 999, local 404
       gameshop@gmail.com

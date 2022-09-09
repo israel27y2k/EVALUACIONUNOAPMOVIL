@@ -6,30 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./accesorios.page.scss'],
 })
 export class AccesoriosPage implements OnInit {
-  public accesorio1 =[
+  public accesorio = [
     {
-     nombre:'PALANCA PLAY 4',
-     precio:'$55.000',
+      nombre: 'PALANCA PLAY 4',
+      precio: '$55.000',
     },
- ];
- public accesorio2 =[
-  {
-   nombre:'TECLADO GAMER ',
-   precio:'$35.000',
-  },
-  ];
-  public accesorio3 =[
     {
-     nombre:'AUDIFONOS GAMER T4',
-     precio:'$45.000',
+      nombre: 'TECLADO GAMER ',
+      precio: '$35.000',
     },
-    ];
-
-  public accesorio4 =[
-  {
-   nombre:'MAUS F4',
-   precio:'$38.000',
-  },
+    {
+      nombre: 'AUDIFONOS GAMER T4',
+      precio: '$45.000',
+    },
+    {
+      nombre: 'MAUS F4',
+      precio: '$38.000',
+    }
   ];
 
 
